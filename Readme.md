@@ -18,7 +18,7 @@ GroceryCartCalcutor/
 │
 ├── Product.java
 ├── DatabaseManager.java
-├── GroceryPricePredictor.java
+├── GroceryPriceCalculator.java
 ├── sqlite-jdbc-3.50.3.0.jar
 └── grocery.db   (auto-created on first run)
 ```
@@ -26,7 +26,7 @@ GroceryCartCalcutor/
 **Files:**
 - `Product.java` → Defines the Product class (name, category, price)
 - `DatabaseManager.java` → Handles SQLite database operations (CRUD)
-- `GroceryPricePredictor.java` → Main program with menus, shopping list, budget management
+- `GroceryPriceCalculator.java` → Main program with menus, shopping list, budget management
 - `sqlite-jdbc-3.50.3.0.jar` → JDBC driver for SQLite
 - `grocery.db` → SQLite database storing product data
 
@@ -44,18 +44,18 @@ javac -cp ".:sqlite-jdbc-3.50.3.0.jar" Product.java DatabaseManager.java Grocery
 
 **Windows**
 ```bash
-javac -cp ".;sqlite-jdbc-3.50.3.0.jar" Product.java DatabaseManager.java GroceryPricePredictor.java
+javac -cp ".;sqlite-jdbc-3.50.3.0.jar" Product.java DatabaseManager.java GroceryPriceCalculator.java
 ```
 
 ### 2️⃣ Run
 **Linux / macOS**
 ```bash
-java -cp ".:sqlite-jdbc-3.50.3.0.jar" GroceryPricePredictor
+java -cp ".:sqlite-jdbc-3.50.3.0.jar" GroceryPriceCalculator
 ```
 
 **Windows**
 ```bash
-java -cp ".;sqlite-jdbc-3.50.3.0.jar" GroceryPricePredictor
+java -cp ".;sqlite-jdbc-3.50.3.0.jar" GroceryPriceCalculator
 ```
 
 - The program automatically creates `grocery.db` if it doesn't exist.
