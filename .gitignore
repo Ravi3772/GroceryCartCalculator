@@ -1,0 +1,33 @@
+# ===========================
+# Java + SQLite Project Ignore
+# ===========================
+
+# Compiled class files
+*.class
+
+# Database files (auto-generated at runtime)
+*.db
+
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+*.settings/
+
+*.tmp
+*.bak
+*.swp
+
+# ===========================
+# Optional: Jar files
+# ===========================
+# If you want everyone to download sqlite-jdbc manually, uncomment this:
+# *.jar
+# If you want to keep sqlite-jdbc.jar in repo (so project runs easily),
+# leave it tracked.
